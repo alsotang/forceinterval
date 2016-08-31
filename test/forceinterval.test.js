@@ -15,7 +15,13 @@ describe('test/forceinterval.test.js', function () {
 
     setTimeout(function () {
       assert(count == 10)
-      done()
+      var startTime = +new Date()
+      while ((new Date - startTime) < 1000) {}
     }, 50)
+
+    setTimeout(function () {
+      assert(count == 20)
+      done()
+    }, 1050)
   })
 })
