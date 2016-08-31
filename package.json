@@ -1,6 +1,6 @@
 {
   "name": "forceinterval",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "auto execute omitted setInterval cycle",
   "main": "index.js",
   "scripts": {
